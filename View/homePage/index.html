@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering System</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Additional CSS to position the logo */
+        .navbar-brand img {
+            align-items: start;
+            margin-top: 10px; /* Adjust as needed */
+            margin-left: 10px; /* Adjust as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <div class="row" style="width:100%;">
+                    <div class="col col-3 col-sm-2 col-md-2 col-lg-2">
+                        <a class="navbar-brand text-uppercase" href="" title="Home -Cafeteria"><img src="logo.jpg" class="img-fluid" alt="Cafeteria-Logo" style="margin-right: 100%;"></a>
+                    </div>
+                    <div style="width:83%;">
+                        <div class="row top-links">
+                            <div class="row" style="width:100%;">
+                            </div>
+                        </div>
+                        <div class="row main-nav">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item dropdown caf-dropdown active ">
+                                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="25" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Our Menu -Cafeteria" href="">Our Menu<i class="fas fa-angle-down rotate menu-icon-caf-drop"></i></a>
+                                        <div class="dropdown-menu caf-menu v-2 z-depth-1 darken-4 py-5 px-3" aria-labelledby="25">
+                                            <div class="container menuContainer">
+                                                <div class="row">
+                                                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <ul class="list-unstyled">
+                                                            <div class="row">
+                                                                <!-- Menu items here -->
+                                                                
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a title="Hours - -Cafeteria" class="nav-link waves-effect waves-light" href="" org_title="Hours -Cafeteria">Hours</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <button type="button" class="nav-link cafYellow caf-ordernow" data-toggle="modal" data-target="#order-now">Order Now</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a title="Contact Us -Cafeteria" class="nav-link cafYellow caf-ordernow waves-effect waves-light" href="">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a title="Sign Up -Cafeteria" class="nav-link cafYellow caf-ordernow waves-effect waves-light" href="signUp.html">Sign Up</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a title="Login -Cafeteria" class="nav-link cafYellow caf-ordernow waves-effect waves-light" href="LogIn.html">Log In</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <div class="dayMeal-container">
+        <div class="dayMeal" style="color: darkorange;">
+          <h2>MEALS FOR THE DAY</h2>
+        </div>
+      </div>
+        <div class="carousel-container">
+            <div class="carousel">
+                
+                <img src="Pap-and-tripe-1.jpg" alt="Pap-and-tripe-">
+                <img src="chicken-pap.jpeg" alt="Food Item 1">
+                <img src="steak-and-pap.avif" alt="Food Item 2">
+            </div>
+        </div>
+        <div>
+          
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
